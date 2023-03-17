@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 import Counter from './Counter'
 
 export default class CounterParent extends Component {
-    // state={
-    //     show: false
-    // }
+
     constructor(props) {
         super(props)
         this.state ={
