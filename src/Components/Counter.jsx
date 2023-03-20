@@ -31,7 +31,7 @@ export default class Counter extends Component {
         if(this.state.count){
             document.getElementById('update').innerHTML = 'counter is at ' + this.state.count
             setTimeout(() => {
-                this.setState({color: ('red')})
+                this.setState({color: 'red'})
             }, 2000)
         }
     }
