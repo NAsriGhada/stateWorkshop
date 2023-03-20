@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "stateworkshop",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,22 @@
   },
   "scripts": {
     "start": "react-scripts start",
+=======
+  "name": "reserve",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+>>>>>>> 35510b1277e8fed8d68670d1032079ade9a9a605
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
